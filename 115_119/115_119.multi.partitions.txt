@@ -1,0 +1,4 @@
+DNA, ITS.aln = 1-796
+DNA, LSU.aln = 797-2813
+DNA, CAM.aln = 2814-3691
+DNA, BT2.aln = 3692-5634

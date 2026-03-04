@@ -1,0 +1,6 @@
+#nexus
+begin sets;
+  charset BT2_CAM_ITS_LSU = 1-1964  1-648  1-795  1-2018;
+  charpartition mymodels =
+    TIM2+F+R4: BT2_CAM_ITS_LSU;
+end;

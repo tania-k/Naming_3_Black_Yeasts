@@ -1,0 +1,423 @@
+IQ-TREE 3.0.1 built May 14 2025
+
+Input file name: aln/rDNA/ITS.aln.clipkit
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (1000 replicates)
+Random seed number: 416314
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 43 sequences with 798 nucleotide sites
+Number of constant sites: 310 (= 38.8471% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 310 (= 38.8471% of all sites)
+Number of parsimony informative sites: 361
+Number of distinct site patterns: 530
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TIM2+I+G4        -10022.660   20221.321 - 0.000808   20243.414 -  0.00295   20633.346 +    0.323
+TIM2e+I+G4       -10022.690   20221.379 - 0.000785   20243.472 -  0.00287   20633.405 +    0.314
+TIM2e+I+G4       -10022.690   20221.379 - 0.000785   20243.472 -  0.00287   20633.405 +    0.314
+TIM2+F+I+G4      -10014.918   20211.836 +   0.0927   20235.552 +     0.15   20637.908 -    0.033
+GTR+F+I+G4       -10010.641   20207.282 +    0.903   20232.117 +    0.838   20642.718 -  0.00298
+GTR+I+G4         -10021.139   20222.277 - 0.000501   20245.445 -  0.00107   20643.667 -  0.00185
+SYM+I+G4         -10021.149   20222.298 - 0.000496   20245.466 -  0.00106   20643.687 -  0.00183
+SYM+I+G4         -10021.149   20222.298 - 0.000496   20245.466 -  0.00106   20643.687 -  0.00183
+TIM2+G4          -10031.397   20236.794 - 3.53e-07   20258.360 - 1.68e-06   20644.138 -  0.00146
+TIM2e+G4         -10031.398   20236.797 - 3.52e-07   20258.363 - 1.67e-06   20644.140 -  0.00146
+TIM2e+G4         -10031.398   20236.797 - 3.52e-07   20258.363 - 1.67e-06   20644.140 -  0.00146
+TN+I+G4          -10031.715   20237.430 - 2.57e-07   20258.997 - 1.22e-06   20644.774 -  0.00107
+TNe+I+G4         -10031.725   20237.450 - 2.54e-07   20259.016 - 1.21e-06   20644.793 -  0.00106
+TNe+I+G4         -10031.725   20237.450 - 2.54e-07   20259.016 - 1.21e-06   20644.793 -  0.00106
+TIM2+F+G4        -10024.135   20228.269 -  2.5e-05   20251.438 - 5.34e-05   20649.659 - 9.26e-05
+TIM+I+G4         -10030.829   20237.658 - 2.29e-07   20259.751 - 8.36e-07   20649.684 - 9.15e-05
+TIMe+I+G4        -10030.839   20237.677 - 2.27e-07   20259.770 - 8.28e-07   20649.703 - 9.06e-05
+TIMe+I+G4        -10030.839   20237.677 - 2.27e-07   20259.770 - 8.28e-07   20649.703 - 9.06e-05
+TIM3+I+G4        -10031.155   20238.310 - 1.65e-07   20260.403 - 6.04e-07   20650.336 - 6.61e-05
+TIM3e+I+G4       -10031.160   20238.320 - 1.64e-07   20260.413 - 6.01e-07   20650.346 - 6.57e-05
+TIM3e+I+G4       -10031.160   20238.320 - 1.64e-07   20260.413 - 6.01e-07   20650.346 - 6.57e-05
+TN+G4            -10038.505   20249.011 - 7.84e-10   20270.057 - 4.84e-09   20651.672 - 3.39e-05
+TNe+G4           -10038.506   20249.012 - 7.84e-10   20270.058 - 4.83e-09   20651.673 - 3.38e-05
+TNe+G4           -10038.506   20249.012 - 7.84e-10   20270.058 - 4.83e-09   20651.673 - 3.38e-05
+GTR+G4           -10029.966   20237.932 -    2e-07   20260.559 - 5.59e-07   20654.639 - 7.68e-06
+SYM+G4           -10029.967   20237.934 - 1.99e-07   20260.561 - 5.58e-07   20654.641 - 7.67e-06
+SYM+G4           -10029.967   20237.934 - 1.99e-07   20260.561 - 5.58e-07   20654.641 - 7.67e-06
+GTR+F+G4         -10020.287   20224.575 - 0.000159   20248.847 - 0.000195   20655.329 - 5.44e-06
+TIM+G4           -10037.595   20249.190 - 7.17e-10   20270.756 - 3.41e-09   20656.534 - 2.98e-06
+TIMe+G4          -10037.597   20249.195 - 7.16e-10   20270.761 -  3.4e-09   20656.538 - 2.97e-06
+TIMe+G4          -10037.597   20249.195 - 7.16e-10   20270.761 -  3.4e-09   20656.538 - 2.97e-06
+TIM3+G4          -10038.061   20250.121 -  4.5e-10   20271.687 - 2.14e-09   20657.465 - 1.87e-06
+TIM3e+G4         -10038.062   20250.123 -  4.5e-10   20271.690 - 2.14e-09   20657.467 - 1.87e-06
+TIM3e+G4         -10038.062   20250.123 -  4.5e-10   20271.690 - 2.14e-09   20657.467 - 1.87e-06
+TIM3+F+I+G4      -10024.742   20231.483 - 5.02e-06   20255.200 - 8.14e-06   20657.555 - 1.79e-06
+TN+F+I+G4        -10028.178   20236.356 - 4.39e-07   20259.524 - 9.37e-07   20657.745 - 1.63e-06
+TIM+F+I+G4       -10027.424   20236.848 - 3.43e-07   20260.565 - 5.57e-07   20662.920 - 1.22e-07
+TN+F+G4          -10034.931   20247.861 - 1.39e-09   20270.488 -  3.9e-09   20664.569 - 5.36e-08
+TIM3+F+G4        -10032.096   20244.192 - 8.73e-09   20267.360 - 1.86e-08   20665.581 - 3.23e-08
+TIM+F+G4         -10034.125   20248.251 - 1.15e-09   20271.419 - 2.45e-09   20669.640 - 4.25e-09
+TPM2u+F+I+G4     -10052.953   20285.907 - 7.63e-18   20309.075 - 1.63e-17   20707.297 - 2.83e-17
+TVM+F+I+G4       -10049.285   20282.570 - 4.05e-17   20306.842 - 4.97e-17   20713.324 - 1.39e-18
+TPM2u+F+G4       -10060.821   20299.642 - 7.95e-21   20322.269 - 2.22e-20   20716.349 - 3.06e-19
+TVM+F+G4         -10057.290   20296.580 - 3.67e-20   20320.297 - 5.96e-20   20722.652 - 1.31e-20
+TPM2u+I+G4       -10073.653   20321.307 - 1.57e-25   20342.873 - 7.46e-25   20728.650 - 6.52e-22
+TPM2+I+G4        -10073.654   20321.309 - 1.57e-25   20342.875 - 7.45e-25   20728.652 - 6.51e-22
+TPM2+I+G4        -10073.654   20321.309 - 1.57e-25   20342.875 - 7.45e-25   20728.652 - 6.51e-22
+HKY+F+I+G4       -10067.873   20313.747 - 6.88e-24   20336.374 - 1.92e-23   20730.454 - 2.64e-22
+TPM3u+F+I+G4     -10064.945   20309.890 - 4.73e-23   20333.058 - 1.01e-22   20731.280 - 1.75e-22
+HKY+F+G4         -10073.806   20323.613 - 4.95e-26   20345.706 - 1.81e-25   20735.638 - 1.98e-23
+K3Pu+F+I+G4      -10067.148   20314.297 - 5.22e-24   20337.465 - 1.11e-23   20735.686 - 1.93e-23
+TPM2u+G4         -10080.568   20333.136 - 4.24e-28   20354.182 - 2.61e-27   20735.797 - 1.83e-23
+TPM2+G4          -10080.568   20333.136 - 4.24e-28   20354.182 - 2.61e-27   20735.797 - 1.83e-23
+TPM2+G4          -10080.568   20333.136 - 4.24e-28   20354.182 - 2.61e-27   20735.797 - 1.83e-23
+TPM3u+F+G4       -10071.248   20320.496 - 2.35e-25   20343.123 - 6.58e-25   20737.203 - 9.05e-24
+TVM+I+G4         -10072.201   20322.401 - 9.08e-26   20345.028 - 2.54e-25   20739.109 - 3.49e-24
+TVMe+I+G4        -10072.202   20322.404 - 9.06e-26   20345.031 - 2.54e-25   20739.112 - 3.49e-24
+TVMe+I+G4        -10072.202   20322.404 - 9.06e-26   20345.031 - 2.54e-25   20739.112 - 3.49e-24
+K3Pu+F+G4        -10073.043   20324.085 - 3.91e-26   20346.712 - 1.09e-25   20740.793 -  1.5e-24
+K2P+I+G4         -10083.876   20339.752 - 1.55e-29   20360.799 - 9.55e-29   20742.414 - 6.69e-25
+K2P+I+G4         -10083.876   20339.752 - 1.55e-29   20360.799 - 9.55e-29   20742.414 - 6.69e-25
+HKY+I+G4         -10083.877   20339.754 - 1.55e-29   20360.801 - 9.54e-29   20742.416 - 6.68e-25
+TVM+G4           -10079.110   20334.220 - 2.46e-28   20356.313 -    9e-28   20746.245 - 9.85e-26
+TVMe+G4          -10079.111   20334.223 - 2.46e-28   20356.316 - 8.99e-28   20746.248 - 9.84e-26
+TVMe+G4          -10079.111   20334.223 - 2.46e-28   20356.316 - 8.99e-28   20746.248 - 9.84e-26
+HKY+G4           -10089.154   20348.309 - 2.15e-31   20368.842 - 1.71e-30   20746.288 - 9.64e-26
+K2P+G4           -10089.154   20348.309 - 2.15e-31   20368.842 - 1.71e-30   20746.288 - 9.64e-26
+K2P+G4           -10089.154   20348.309 - 2.15e-31   20368.842 - 1.71e-30   20746.288 - 9.64e-26
+K3Pu+I+G4        -10083.022   20340.043 - 1.34e-29   20361.610 - 6.37e-29   20747.387 - 5.57e-26
+K3P+I+G4         -10083.022   20340.044 - 1.34e-29   20361.610 - 6.37e-29   20747.387 - 5.56e-26
+K3P+I+G4         -10083.022   20340.044 - 1.34e-29   20361.610 - 6.37e-29   20747.387 - 5.56e-26
+TPM3+I+G4        -10083.334   20340.668 - 9.81e-30   20362.234 - 4.66e-29   20748.011 - 4.07e-26
+TPM3+I+G4        -10083.334   20340.668 - 9.81e-30   20362.234 - 4.66e-29   20748.011 - 4.07e-26
+TPM3u+I+G4       -10083.334   20340.669 -  9.8e-30   20362.235 - 4.66e-29   20748.012 - 4.07e-26
+K3Pu+G4          -10088.296   20348.591 - 1.87e-31   20369.637 - 1.15e-30   20751.252 - 8.06e-27
+K3P+G4           -10088.296   20348.592 - 1.87e-31   20369.638 - 1.15e-30   20751.253 - 8.05e-27
+K3P+G4           -10088.296   20348.592 - 1.87e-31   20369.638 - 1.15e-30   20751.253 - 8.05e-27
+TPM3u+G4         -10088.678   20349.356 - 1.27e-31   20370.402 - 7.85e-31   20752.017 -  5.5e-27
+TPM3+G4          -10088.678   20349.357 - 1.27e-31   20370.403 - 7.84e-31   20752.018 - 5.49e-27
+TPM3+G4          -10088.678   20349.357 - 1.27e-31   20370.403 - 7.84e-31   20752.018 - 5.49e-27
+F81+F+I+G4       -10139.970   20455.941 - 9.13e-55   20478.034 - 3.33e-54   20867.966 - 3.65e-52
+F81+F+G4         -10146.109   20466.218 - 5.35e-57   20487.785 - 2.54e-56   20873.562 - 2.22e-53
+JC+I+G4          -10159.048   20488.095 - 9.51e-62   20508.629 - 7.57e-61   20886.074 - 4.26e-56
+JC+I+G4          -10159.048   20488.095 - 9.51e-62   20508.629 - 7.57e-61   20886.074 - 4.26e-56
+F81+I+G4         -10159.049   20488.097 -  9.5e-62   20508.631 - 7.56e-61   20886.077 - 4.26e-56
+JC+G4            -10164.623   20497.246 -  9.8e-64   20517.274 -    1e-62   20890.543 - 4.57e-57
+JC+G4            -10164.623   20497.246 -  9.8e-64   20517.274 -    1e-62   20890.543 - 4.57e-57
+F81+G4           -10164.624   20497.247 - 9.79e-64   20517.275 -    1e-62   20890.544 - 4.56e-57
+JC+I+R3          -10155.281   20486.563 - 2.05e-61   20508.656 - 7.47e-61   20898.588 - 8.18e-59
+JC+I+R4          -10150.745   20481.491 - 2.58e-60   20504.659 - 5.51e-60   20902.880 - 9.56e-60
+JC+R5            -10150.950   20483.901 - 7.74e-61   20507.618 - 1.26e-60   20909.973 - 2.76e-61
+JC+I+R2          -10171.986   20515.972 - 8.41e-68   20537.018 - 5.18e-67   20918.633 - 3.63e-63
+JC+R6            -10150.283   20486.567 - 2.04e-61   20511.402 - 1.89e-61   20922.003 - 6.73e-64
+JC+R4            -10169.378   20516.755 - 5.68e-68   20539.383 - 1.59e-67   20933.463 - 2.19e-66
+JC+R3            -10186.163   20546.326 - 2.15e-74   20567.893 - 1.02e-73   20953.670 - 8.95e-71
+JC+R2            -10284.847   20739.694 - 2.21e-116   20760.227 - 1.76e-115   21137.673 - 9.91e-111
+JC+I             -10557.212   21282.424 - 3.1e-234   21302.452 - 3.18e-233   21675.721 - 1.45e-227
+JC               -11285.706   22737.412 -        0   22756.941 -        0   23126.027 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.5168
+  A-G: 1.4530
+  A-T: 1.5168
+  C-G: 1.0000
+  C-T: 3.3481
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2317
+  pi(C) = 0.2807
+  pi(G) = 0.2476
+  pi(T) = 0.24
+
+Rate matrix Q:
+
+  A   -0.9259    0.3429    0.2897    0.2932
+  C     0.283     -1.13    0.1994    0.6472
+  G    0.2711    0.2261   -0.6905    0.1933
+  T     0.283    0.7569    0.1994    -1.239
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.208
+Gamma shape alpha: 0.6008
+
+ Category  Relative_rate  Proportion
+  0         0              0.208
+  1         0.06727        0.198
+  2         0.3949         0.198
+  3         1.113          0.198
+  4         3.475          0.198
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10014.5128 (s.e. 365.5735)
+Unconstrained log-likelihood (without tree): -4423.7145
+Number of free parameters (#branches + #model parameters): 91
+Akaike information criterion (AIC) score: 20211.0256
+Corrected Akaike information criterion (AICc) score: 20234.7423
+Bayesian information criterion (BIC) score: 20637.0975
+
+Total tree length (sum of branch lengths): 6.1231
+Sum of internal branch lengths: 2.6962 (44.0330% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0013) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Aspergillus_fumigatus' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++---------------------------Aspergillus_fumigatus
+|
+|                                +---------------------------Metulocladosporiella_samutensis
+|                 +--------------| (100)
+|                 |              +---Metulocladosporiella_musicola
+|              +--| (31)
+|              |  |         +--Arthrocladium_tropicale
+|              |  |      +--| (74)
+|              |  |      |  +--Arthrocladium_tardum
+|              |  |  +---| (94)
+|              |  |  |   +--Arthrocladium_caudatum
+|              |  +--| (27)
+|              |     |     +-----Knufia_mediterranea
+|              |     |  +--| (63)
+|              |     |  |  +--Knufia_obscura
+|              |     +--| (17)
+|              |        |        +--Knufia_sp.
+|              |        |     +--| (54)
+|              |        |     |  +--Knufia_walvisbayicola
+|              |        |  +--| (34)
+|              |        |  |  |  +--Knufia_separata
+|              |        |  |  +--| (34)
+|              |        |  |     +--Knufia_petricola
+|              |        +--| (41)
+|              |           +--Knufia_tsunedae
+|           +--| (39)
+|           |  |               +--Lithohypha_guttulata
+|           |  |     +---------| (100)
+|           |  |     |         +**Lithohypha_aloicola
+|           |  |  +--| (40)
+|           |  |  |  |             +--Trichomerium_sp.
+|           |  |  |  |          +--| (94)
+|           |  |  |  |          |  +--Trichomerium_gleosporum
+|           |  |  |  |       +--| (52)
+|           |  |  |  |       |  +--Trichomerium_cicatricatum
+|           |  |  |  +-------| (100)
+|           |  |  |          +--Trichomerium_deniquelatum
+|           |  +--| (35)
+|           |     |  +--------Strelitziana_africana
+|           |     +--| (69)
+|           |        |    +--Bradymyces_yunnanensis
+|           |        +----| (100)
+|           |             +--Bradymyces_alpinus
+|        +--| (66)
+|        |  |        +--Anthracina_saxicola
+|        |  +--------| (100)
+|        |           +--Anthracina_ramosa
+|   +----| (73)
+|   |    |     +--Neophaeococcomyces_oklahomaensis
+|   |    |  +--| (86)
+|   |    |  |  |  +--Neophaeococcomyces_aloes
+|   |    |  |  +--| (51)
+|   |    |  |     +--Neophaeococcomyces_catenatus
+|   |    +--| (99)
+|   |       +--Neophaeococcomyces_mojaviensis_JES112
++---| (48)
+|   |          +---Exophiala_radicis
+|   |     +----| (99)
+|   |     |    +-----Exophiala_mesophila
+|   +-----| (98)
+|         |           +----Exophiala_oligosperma
+|         |     +-----| (100)
+|         |     |     +-----Exophiala_xenobiotica
+|         |  +--| (32)
+|         |  |  |       +--Cladophialophora_yegresii
+|         |  |  |  +----| (100)
+|         |  |  |  |    +--Cladophialophora_carrionii
+|         |  |  +--| (96)
+|         |  |     |  +--Cladophialophora_immunda
+|         |  |     +--| (72)
+|         |  |        +----Fonsecaea_pedrosoi
+|         +**| (11)
+|            |  +-----Exophiala_dermatitidis_NIH.UT8656
+|            +--| (42)
+|               +------Capronia_coronata
+|
+|                     +**Cyphellophora_vermispora
+|         +-----------| (100)
+|         |           +**Cyphellophora_sessilis
+|    +----| (87)
+|    |    +--Cyphellophora_europaea
++----| (92)
+     |  +--Cyphellophora_laciniata
+     +--| (93)
+        +--Cyphellophora_aestiva
+
+Tree in newick format:
+
+(Aspergillus_fumigatus:0.5337714605,((((((Metulocladosporiella_samutensis:0.5380761925,Metulocladosporiella_musicola:0.0896388332)100:0.2999964687,(((Arthrocladium_tropicale:0.0231511092,Arthrocladium_tardum:0.0266869329)74:0.0168190605,Arthrocladium_caudatum:0.0513986021)94:0.0911345877,((Knufia_mediterranea:0.1131934504,Knufia_obscura:0.0689205151)63:0.0468384404,(((Knufia_sp.:0.0419383294,Knufia_walvisbayicola:0.0448291182)54:0.0139865723,(Knufia_separata:0.0692761458,Knufia_petricola:0.0107309828)34:0.0070686639)34:0.0202382331,Knufia_tsunedae:0.0405125066)41:0.0264490480)17:0.0115287067)27:0.0237546235)31:0.0118626814,(((Lithohypha_guttulata:0.0147299767,Lithohypha_aloicola:0.0000023516)100:0.1938343630,(((Trichomerium_sp.:0.0339615796,Trichomerium_gleosporum:0.0284795085)94:0.0531637823,Trichomerium_cicatricatum:0.0331944060)52:0.0302913921,Trichomerium_deniquelatum:0.0332103954)100:0.1618144288)40:0.0334908602,(Strelitziana_africana:0.1854861654,(Bradymyces_yunnanensis:0.0382349704,Bradymyces_alpinus:0.0293668977)100:0.1127929470)69:0.0307864290)35:0.0345888483)39:0.0342171388,(Anthracina_saxicola:0.0135239555,Anthracina_ramosa:0.0181939586)100:0.1753021505)66:0.0511905559,((Neophaeococcomyces_oklahomaensis:0.0439399587,(Neophaeococcomyces_aloes:0.0418478826,Neophaeococcomyces_catenatus:0.0161683018)51:0.0160671107)86:0.0577913723,Neophaeococcomyces_mojaviensis_JES112:0.0446195350)99:0.0622157693)73:0.1118431125,((Exophiala_radicis:0.0878342579,Exophiala_mesophila:0.1214504387)99:0.1122471495,(((Exophiala_oligosperma:0.0966974598,Exophiala_xenobiotica:0.1298882162)100:0.1272473795,((Cladophialophora_yegresii:0.0230079010,Cladophialophora_carrionii:0.0473113613)100:0.1063376550,(Cladophialophora_immunda:0.0098928473,Fonsecaea_pedrosoi:0.1082032901)72:0.0474969707)96:0.0639190591)32:0.0092023353,(Exophiala_dermatitidis_NIH.UT8656:0.1292294520,Capronia_coronata:0.1337924723)42:0.0246562190)11:0.0000023409)98:0.1315868362)48:0.0830746204,(((Cyphellophora_vermispora:0.0000009986,Cyphellophora_sessilis:0.0000009986)100:0.2333203991,Cyphellophora_europaea:0.0640023794)87:0.1011715305,(Cyphellophora_laciniata:0.0017017850,Cyphellophora_aestiva:0.0134982843)93:0.0524581257)92:0.1077126986);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -10017.087234
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-------------------------------Aspergillus_fumigatus
+|
+|                                +-----------------------------Metulocladosporiella_samutensis
+|               +----------------| (100)
+|               |                +----Metulocladosporiella_musicola
+|            +--| (38)
+|            |  |      +--Arthrocladium_tropicale
+|            |  |   +--| (74)
+|            |  |   |  +--Arthrocladium_tardum
+|            |  +---| (94)
+|            |      +--Arthrocladium_caudatum
+|         +--| (31)
+|         |  |     +-----Knufia_mediterranea
+|         |  |  +--| (63)
+|         |  |  |  +--Knufia_obscura
+|         |  +--| (17)
+|         |     |        +--Knufia_sp.
+|         |     |     +--| (54)
+|         |     |     |  +--Knufia_walvisbayicola
+|         |     |  +--| (34)
+|         |     |  |  |  +--Knufia_separata
+|         |     |  |  +--| (34)
+|         |     |  |     +--Knufia_petricola
+|         |     +--| (41)
+|         |        +--Knufia_tsunedae
+|      +--| (39)
+|      |  |               +--Lithohypha_guttulata
+|      |  |     +---------| (100)
+|      |  |     |         +--Lithohypha_aloicola
+|      |  |  +--| (40)
+|      |  |  |  |              +--Trichomerium_sp.
+|      |  |  |  |           +--| (94)
+|      |  |  |  |           |  +--Trichomerium_gleosporum
+|      |  |  |  |        +--| (52)
+|      |  |  |  |        |  +--Trichomerium_cicatricatum
+|      |  |  |  +--------| (100)
+|      |  |  |           +--Trichomerium_deniquelatum
+|      |  +--| (35)
+|      |     |  +---------Strelitziana_africana
+|      |     +--| (69)
+|      |        |     +--Bradymyces_yunnanensis
+|      |        +-----| (100)
+|      |              +--Bradymyces_alpinus
+|   +--| (66)
+|   |  |         +--Anthracina_saxicola
+|   |  +---------| (100)
+|   |            +--Anthracina_ramosa
++---| (73)
+|   |     +--Neophaeococcomyces_oklahomaensis
+|   |  +--| (86)
+|   |  |  |  +--Neophaeococcomyces_aloes
+|   |  |  +--| (51)
+|   |  |     +--Neophaeococcomyces_catenatus
+|   +--| (99)
+|      +--Neophaeococcomyces_mojaviensis_JES112
+|
+|                             +--Cyphellophora_vermispora
+|                +------------| (100)
+|                |            +--Cyphellophora_sessilis
+|           +----| (87)
+|           |    +--Cyphellophora_europaea
+|  +--------| (92)
+|  |        |  +--Cyphellophora_laciniata
+|  |        +--| (93)
+|  |           +--Cyphellophora_aestiva
++--| (50)
+   |            +----Exophiala_radicis
+   |      +-----| (99)
+   |      |     +-----Exophiala_mesophila
+   +------| (98)
+          |            +----Exophiala_oligosperma
+          |     +------| (100)
+          |     |      +------Exophiala_xenobiotica
+          |  +--| (32)
+          |  |  |        +--Cladophialophora_yegresii
+          |  |  |  +-----| (100)
+          |  |  |  |     +--Cladophialophora_carrionii
+          |  |  +--| (96)
+          |  |     |  +--Cladophialophora_immunda
+          |  |     +--| (72)
+          |  |        +-----Fonsecaea_pedrosoi
+          +--| (11)
+             |  +------Exophiala_dermatitidis_NIH.UT8656
+             +--| (42)
+                +------Capronia_coronata
+
+
+Consensus tree in newick format: 
+
+(Aspergillus_fumigatus:0.5641829253,((((((Metulocladosporiella_samutensis:0.5376674132,Metulocladosporiella_musicola:0.0888713227)100:0.3017051824,((Arthrocladium_tropicale:0.0228331839,Arthrocladium_tardum:0.0267007242)74:0.0171166905,Arthrocladium_caudatum:0.0508787598)94:0.0787607761)38:0.0156352952,((Knufia_mediterranea:0.1137206730,Knufia_obscura:0.0676109964)63:0.0476158415,(((Knufia_sp.:0.0417718486,Knufia_walvisbayicola:0.0446173779)54:0.0144374895,(Knufia_separata:0.0695210156,Knufia_petricola:0.0100794736)34:0.0069885792)34:0.0204605047,Knufia_tsunedae:0.0393615035)41:0.0260010925)17:0.0120791971)31:0.0304915596,(((Lithohypha_guttulata:0.0146541990,Lithohypha_aloicola:0.0000024774)100:0.1903805694,(((Trichomerium_sp.:0.0337369063,Trichomerium_gleosporum:0.0283527725)94:0.0529218638,Trichomerium_cicatricatum:0.0329312435)52:0.0299051132,Trichomerium_deniquelatum:0.0331918727)100:0.1630658014)40:0.0351888231,(Strelitziana_africana:0.1849071941,(Bradymyces_yunnanensis:0.0376981928,Bradymyces_alpinus:0.0295273353)100:0.1117324756)69:0.0301134142)35:0.0343400253)39:0.0344634378,(Anthracina_saxicola:0.0135685242,Anthracina_ramosa:0.0179942578)100:0.1748949474)66:0.0508986803,((Neophaeococcomyces_oklahomaensis:0.0436226435,(Neophaeococcomyces_aloes:0.0415956335,Neophaeococcomyces_catenatus:0.0160883541)51:0.0159960063)86:0.0577247178,Neophaeococcomyces_mojaviensis_JES112:0.0441301077)99:0.0658163927)73:0.0772398511,((((Cyphellophora_vermispora:0.0000022255,Cyphellophora_sessilis:0.0000022255)100:0.2312046394,Cyphellophora_europaea:0.0664822341)87:0.0880734290,(Cyphellophora_laciniata:0.0016787252,Cyphellophora_aestiva:0.0134581131)93:0.0622284601)92:0.1687362970,((Exophiala_radicis:0.0875354470,Exophiala_mesophila:0.1205657401)99:0.1108593779,(((Exophiala_oligosperma:0.0956208133,Exophiala_xenobiotica:0.1294832693)100:0.1261493223,((Cladophialophora_yegresii:0.0229430808,Cladophialophora_carrionii:0.0469917868)100:0.1053621514,(Cladophialophora_immunda:0.0097483603,Fonsecaea_pedrosoi:0.1077209890)72:0.0475601931)96:0.0642165154)32:0.0092433200,(Exophiala_dermatitidis_NIH.UT8656:0.1283140391,Capronia_coronata:0.1333119283)42:0.0245519741)11:0.0000025657)98:0.1286117935)50:0.0437922423);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t aln/rDNA/ITS.aln.clipkit.treefile -m "TIM2{1.5168,1.45299,3.34812}+F{0.231656,0.280703,0.247604,0.240037}+I{0.208001}+G4{0.600839}" --length 798
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s aln/rDNA/ITS.aln.clipkit --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s aln/rDNA/ITS.aln.clipkit --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Feb 17 05:17:37 2026
+Total CPU time used: 124171.4008 seconds (34h:29m:31s)
+Total wall-clock time used: 66085.83712 seconds (18h:21m:25s)
+

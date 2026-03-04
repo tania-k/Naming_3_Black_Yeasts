@@ -1,0 +1,314 @@
+IQ-TREE 3.0.1 built May 14 2025
+
+Partition file name: 112_multi.partitions.nex
+Input file name: 112.rDNA_multi.mfa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 258702
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 43 taxa with 1 partitions and 3971 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	43	3971	769	1600	1799	1799	BT2+CAM+ITS+LSU
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+R4:BT2+CAM+ITS+LSU
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  GTR+F+R4         -44408.699   88847.398 + 8.05e-317   88847.519 + 8.05e-317   88941.700 +        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F+R4       1.0000  GTR{1.20332,1.36856,1.53232,0.919567,3.59709}+F{0.239577,0.263023,0.259166,0.238233}+R4{0.508287,0.0417812,0.295471,0.731684,0.147237,2.83069,0.0490045,7.05624}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -44397.1315 (s.e. 779.5918)
+Unconstrained log-likelihood (without tree): -23243.9616
+Number of free parameters (#branches + #model parameters): 97
+Akaike information criterion (AIC) score: 88988.2629
+Corrected Akaike information criterion (AICc) score: 88993.1718
+Bayesian information criterion (BIC) score: 89598.0799
+
+Mixture-based log-likelihood of the tree: -44397.1315
+Marginal Akaike information criterion (mAIC) score: 88988.2629
+
+Total tree length (sum of branch lengths): 4.9817
+Sum of internal branch lengths: 2.3272 (46.7156% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Aspergillus_fumigatus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++---------------------------------Aspergillus_fumigatus
+|
+|                                +---------------------------Metulocladosporiella_samutensis
+|                  +-------------| (100)
+|                  |             +----Metulocladosporiella_musicola
+|               +--| (83)
+|               |  |         +--Arthrocladium_tropicale
+|               |  |      +--| (96)
+|               |  |      |  +--Arthrocladium_tardum
+|               |  |  +---| (100)
+|               |  |  |   +--Arthrocladium_caudatum
+|               |  +--| (89)
+|               |     |     +-----Knufia_mediterranea
+|               |     |  +--| (99)
+|               |     |  |  +--Knufia_obscura
+|               |     +--| (97)
+|               |        |        +--Knufia_sp.
+|               |        |     +--| (100)
+|               |        |     |  +--Knufia_walvisbayicola
+|               |        |  +--| (92)
+|               |        |  |  |  +--Knufia_separata
+|               |        |  |  +--| (92)
+|               |        |  |     +--Knufia_petricola
+|               |        +--| (98)
+|               |           +--Knufia_tsunedae
+|            +--| (93)
+|            |  |                 +--Lithohypha_guttulata
+|            |  |     +-----------| (100)
+|            |  |     |           +**Lithohypha_aloicola
+|            |  |  +--| (60)
+|            |  |  |  |  +----------Strelitziana_africana
+|            |  |  |  +--| (100)
+|            |  |  |     |     +--Bradymyces_yunnanensis
+|            |  |  |     +-----| (100)
+|            |  |  |           +--Bradymyces_alpinus
+|            |  +--| (95)
+|            |     |              +--Trichomerium_sp.
+|            |     |           +--| (100)
+|            |     |           |  +--Trichomerium_gleosporum
+|            |     |        +--| (76)
+|            |     |        |  +--Trichomerium_cicatricatum
+|            |     +--------| (100)
+|            |              +--Trichomerium_deniquelatum
+|         +--| (100)
+|         |  |       +--Anthracina_saxicola
+|         |  +-------| (100)
+|         |          +--Anthracina_ramosa
+|   +-----| (100)
+|   |     |     +--Neophaeococcomyces_oklahomaensis
+|   |     |  +--| (100)
+|   |     |  |  |  +--Neophaeococcomyces_aloes
+|   |     |  |  +--| (89)
+|   |     |  |     +--Neophaeococcomyces_catenatus
+|   |     +--| (100)
+|   |        +--Neophaeococcomyces_mojaviensis_JES112
++---| (78)
+|   |            +---Exophiala_radicis
+|   |       +----| (100)
+|   |       |    +-----Exophiala_mesophila
+|   |    +--| (59)
+|   |    |  |  +-----Exophiala_dermatitidis_NIH.UT8656
+|   |    |  +--| (69)
+|   |    |     +------Capronia_coronata
+|   +----| (100)
+|        |        +---Exophiala_oligosperma
+|        |  +-----| (100)
+|        |  |     +-----Exophiala_xenobiotica
+|        +--| (56)
+|           |       +--Cladophialophora_yegresii
+|           |  +----| (100)
+|           |  |    +--Cladophialophora_carrionii
+|           +--| (100)
+|              |  +--Cladophialophora_immunda
+|              +--| (100)
+|                 +----Fonsecaea_pedrosoi
+|
+|                   +--Cyphellophora_vermispora
+|         +---------| (100)
+|         |         +--Cyphellophora_sessilis
+|      +--| (97)
+|      |  +--Cyphellophora_europaea
++------| (100)
+       |  +--Cyphellophora_laciniata
+       +--| (100)
+          +--Cyphellophora_aestiva
+
+Tree in newick format:
+
+(Aspergillus_fumigatus:0.5270992749,((((((Metulocladosporiella_samutensis:0.0406499881,Metulocladosporiella_musicola:0.0771688538)100:0.2225083494,(((Arthrocladium_tropicale:0.0186234574,Arthrocladium_tardum:0.0193676306)96:0.0130697284,Arthrocladium_caudatum:0.0355973730)100:0.0724273965,((Knufia_mediterranea:0.0947075438,Knufia_obscura:0.0550483702)99:0.0392406897,(((Knufia_sp.:0.0288414884,Knufia_walvisbayicola:0.0313319474)100:0.0117091689,(Knufia_separata:0.0512692305,Knufia_petricola:0.0093342407)92:0.0040925467)92:0.0173232301,Knufia_tsunedae:0.0331456804)98:0.0179708374)97:0.0100810424)89:0.0254652258)83:0.0067481733,(((Lithohypha_guttulata:0.0105354495,Lithohypha_aloicola:0.0000026751)100:0.1850972068,(Strelitziana_africana:0.1702832042,(Bradymyces_yunnanensis:0.0248284880,Bradymyces_alpinus:0.0243120953)100:0.1005711434)100:0.0240590027)60:0.0085499909,(((Trichomerium_sp.:0.0246410858,Trichomerium_gleosporum:0.0201834907)100:0.0395975016,Trichomerium_cicatricatum:0.0301019120)76:0.0229749444,Trichomerium_deniquelatum:0.0251441910)100:0.1452020487)95:0.0303996925)93:0.0262904323,(Anthracina_saxicola:0.0098628143,Anthracina_ramosa:0.0112221301)100:0.1304242586)100:0.0473041064,((Neophaeococcomyces_oklahomaensis:0.0316025584,(Neophaeococcomyces_aloes:0.0287378575,Neophaeococcomyces_catenatus:0.0111917397)89:0.0111157552)100:0.0509407613,Neophaeococcomyces_mojaviensis_JES112:0.0296346677)100:0.0531713026)100:0.1012503178,(((Exophiala_radicis:0.0663392867,Exophiala_mesophila:0.0974043844)100:0.0782065584,(Exophiala_dermatitidis_NIH.UT8656:0.0997883009,Capronia_coronata:0.1151445634)69:0.0229607662)59:0.0011899133,((Exophiala_oligosperma:0.0729205668,Exophiala_xenobiotica:0.1045614277)100:0.0926823521,((Cladophialophora_yegresii:0.0170149096,Cladophialophora_carrionii:0.0353204385)100:0.0857408486,(Cladophialophora_immunda:0.0063673199,Fonsecaea_pedrosoi:0.0872058452)100:0.0453141733)100:0.0483204561)56:0.0067824130)100:0.0879947830)78:0.0680778265,(((Cyphellophora_vermispora:0.0027254917,Cyphellophora_sessilis:0.0087044899)100:0.1547928765,Cyphellophora_europaea:0.0542302257)97:0.0554625933,(Cyphellophora_laciniata:0.0015549475,Cyphellophora_aestiva:0.0107322646)100:0.0491555558)100:0.1129780382);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -44397.131089
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------------------------------Aspergillus_fumigatus
+|
+|                                +---------------------------Metulocladosporiella_samutensis
+|                  +-------------| (100)
+|                  |             +----Metulocladosporiella_musicola
+|               +--| (83)
+|               |  |         +--Arthrocladium_tropicale
+|               |  |      +--| (96)
+|               |  |      |  +--Arthrocladium_tardum
+|               |  |  +---| (100)
+|               |  |  |   +--Arthrocladium_caudatum
+|               |  +--| (89)
+|               |     |     +-----Knufia_mediterranea
+|               |     |  +--| (99)
+|               |     |  |  +--Knufia_obscura
+|               |     +--| (97)
+|               |        |        +--Knufia_sp.
+|               |        |     +--| (100)
+|               |        |     |  +--Knufia_walvisbayicola
+|               |        |  +--| (92)
+|               |        |  |  |  +--Knufia_separata
+|               |        |  |  +--| (92)
+|               |        |  |     +--Knufia_petricola
+|               |        +--| (98)
+|               |           +--Knufia_tsunedae
+|            +--| (93)
+|            |  |                 +--Lithohypha_guttulata
+|            |  |     +-----------| (100)
+|            |  |     |           +--Lithohypha_aloicola
+|            |  |  +--| (60)
+|            |  |  |  |  +----------Strelitziana_africana
+|            |  |  |  +--| (100)
+|            |  |  |     |     +--Bradymyces_yunnanensis
+|            |  |  |     +-----| (100)
+|            |  |  |           +--Bradymyces_alpinus
+|            |  +--| (95)
+|            |     |              +--Trichomerium_sp.
+|            |     |           +--| (100)
+|            |     |           |  +--Trichomerium_gleosporum
+|            |     |        +--| (76)
+|            |     |        |  +--Trichomerium_cicatricatum
+|            |     +--------| (100)
+|            |              +--Trichomerium_deniquelatum
+|         +--| (100)
+|         |  |       +--Anthracina_saxicola
+|         |  +-------| (100)
+|         |          +--Anthracina_ramosa
+|   +-----| (100)
+|   |     |     +--Neophaeococcomyces_oklahomaensis
+|   |     |  +--| (100)
+|   |     |  |  |  +--Neophaeococcomyces_aloes
+|   |     |  |  +--| (89)
+|   |     |  |     +--Neophaeococcomyces_catenatus
+|   |     +--| (100)
+|   |        +--Neophaeococcomyces_mojaviensis_JES112
++---| (78)
+|   |            +---Exophiala_radicis
+|   |       +----| (100)
+|   |       |    +-----Exophiala_mesophila
+|   |    +--| (59)
+|   |    |  |  +-----Exophiala_dermatitidis_NIH.UT8656
+|   |    |  +--| (69)
+|   |    |     +------Capronia_coronata
+|   +----| (100)
+|        |        +---Exophiala_oligosperma
+|        |  +-----| (100)
+|        |  |     +-----Exophiala_xenobiotica
+|        +--| (56)
+|           |       +--Cladophialophora_yegresii
+|           |  +----| (100)
+|           |  |    +--Cladophialophora_carrionii
+|           +--| (100)
+|              |  +--Cladophialophora_immunda
+|              +--| (100)
+|                 +----Fonsecaea_pedrosoi
+|
+|                   +--Cyphellophora_vermispora
+|         +---------| (100)
+|         |         +--Cyphellophora_sessilis
+|      +--| (97)
+|      |  +--Cyphellophora_europaea
++------| (100)
+       |  +--Cyphellophora_laciniata
+       +--| (100)
+          +--Cyphellophora_aestiva
+
+
+Consensus tree in newick format: 
+
+(Aspergillus_fumigatus:0.5273141555,((((((Metulocladosporiella_samutensis:0.0409093550,Metulocladosporiella_musicola:0.0772203671)100:0.2226350204,(((Arthrocladium_tropicale:0.0186351517,Arthrocladium_tardum:0.0193781076)96:0.0130787209,Arthrocladium_caudatum:0.0356160021)100:0.0724703361,((Knufia_mediterranea:0.0947629140,Knufia_obscura:0.0550840228)99:0.0392615579,(((Knufia_sp.:0.0288571906,Knufia_walvisbayicola:0.0313522804)100:0.0117161786,(Knufia_separata:0.0513002911,Knufia_petricola:0.0093401486)92:0.0040951275)92:0.0173312834,Knufia_tsunedae:0.0331668504)98:0.0179775179)97:0.0100853699)89:0.0254682272)83:0.0067530336,(((Lithohypha_guttulata:0.0105410193,Lithohypha_aloicola:0.0000029717)100:0.1852080060,(Strelitziana_africana:0.1703787881,(Bradymyces_yunnanensis:0.0248367618,Bradymyces_alpinus:0.0243276805)100:0.1006304845)100:0.0240697136)60:0.0085491577,(((Trichomerium_sp.:0.0246509230,Trichomerium_gleosporum:0.0201946064)100:0.0396179791,Trichomerium_cicatricatum:0.0301167541)76:0.0229853113,Trichomerium_deniquelatum:0.0251558862)100:0.1452835096)95:0.0304175703)93:0.0263017697,(Anthracina_saxicola:0.0098665288,Anthracina_ramosa:0.0112284702)100:0.1304980498)100:0.0473214904,((Neophaeococcomyces_oklahomaensis:0.0316180821,(Neophaeococcomyces_aloes:0.0287509644,Neophaeococcomyces_catenatus:0.0111971059)89:0.0111196455)100:0.0509697860,Neophaeococcomyces_mojaviensis_JES112:0.0296455079)100:0.0531966638)100:0.1012937750,(((Exophiala_radicis:0.0663669572,Exophiala_mesophila:0.0974541291)100:0.0782416063,(Exophiala_dermatitidis_NIH.UT8656:0.0998316777,Capronia_coronata:0.1151963235)69:0.0229657797)59:0.0011892940,((Exophiala_oligosperma:0.0729525728,Exophiala_xenobiotica:0.1046059872)100:0.0927106780,((Cladophialophora_yegresii:0.0170130854,Cladophialophora_carrionii:0.0353406786)100:0.0857798176,(Cladophialophora_immunda:0.0063727274,Fonsecaea_pedrosoi:0.0872360544)100:0.0453147987)100:0.0483290234)56:0.0067877938)100:0.0880350530)78:0.0680975831,(((Cyphellophora_vermispora:0.0027256553,Cyphellophora_sessilis:0.0087077935)100:0.1548517136,Cyphellophora_europaea:0.0542467403)97:0.0554825370,(Cyphellophora_laciniata:0.0015544384,Cyphellophora_aestiva:0.0107369523)100:0.0491595454)100:0.1130269121);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t 112.rDNA_multi.partitioned.treefile -p 112.rDNA_multi.partitioned.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s 112.rDNA_multi.mfa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s 112.rDNA_multi.mfa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Feb 23 10:27:08 2026
+Total CPU time used: 69.934725 seconds (0h:1m:9s)
+Total wall-clock time used: 56.26935929 seconds (0h:0m:56s)
+
